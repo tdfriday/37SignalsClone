@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	text-align: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*MY CODE BEGINS HERE*/
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #43668A;
+}
+a:active{
+	color: #43668A;
+}
+.navbar{
+	margin: auto;
+	height: 60px;
+	width: auto;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+#date{
+	float: left;
+	margin: 10px;
+	padding: 10px 20px;
+}
+.navbttn{
+	float: right;
+	margin: 10px;
+	padding: 10px 20px;
+}
+li{
+	display: inline-block;
+	padding-left: 20px;
+	
+}
+.content{
+	display: block;
+	margin: auto;
+	height: 600px;
+	width: auto;
+	text-align: center;
+}
+#logo{
+	display: block;
+	margin: 10px auto;
+}
+.hotbox{
+	margin: auto;
+	width: 800px;
+}
+.heading{
+	margin: auto;
+	display: block;
+	width: 800px;
+	font-weight: bold;
+}
+.hotbuttons{
+	margin: 20px;
+	padding-top: 10px;
+	text-align: center;
+	display: inline-block;
+	width: 175px;
+	height: 225px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	background: linear-gradient(#FFFFFF, #efefef);
+	box-shadow: 0 0 5px #efefef;
+}
+.name{
+	color: #518EC4;
+	text-decoration: underline;
+}
+.type{
+	padding: 5px;
+	color: #CE0403;
+	font-family: sans-serif;
+}
+.blurb{
+	font-family: sans-serif;
+}
