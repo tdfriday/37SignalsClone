@@ -95,39 +95,46 @@ li{
 }
 .header-text-shown{
 	margin: auto;
-	display: block;
+    display: block;
 	width: 800px;
+    height: 148px;
 	font-weight: bold;
 }
 .bc-info-hidden{
 	margin: auto;
 	display: none;
+	position: relative;
 	width: 800px;
+  height: 148px;
 	font-weight: bold;
 }
 .hr-info-hidden{
 	margin: auto;
 	display: none;
+	position: relative;
 	width: 800px;
+  height: 148px;
 	font-weight: bold;
 }
 .cf-info-hidden{
 	margin: auto;
 	display: none;
+	position: relative;
 	width: 800px;
+  height: 148px;
 	font-weight: bold;
 }
 .bc-arrow{
 	position: absolute;
-	left: 550px;
+	left: 230px;
 }
 .hr-arrow{
 	position: absolute;
-	left: 780px;
+	left: 450px;
 }
 .cf-arrow{
 	position: absolute;
-	left: 820px;
+	left: 500px;
 }
 .hotbuttons{
 	margin: 20px;
