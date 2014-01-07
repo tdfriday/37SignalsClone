@@ -3,8 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-p, blockquote, pre,
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -30,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	text-align: center;
 }
 ol, ul {
 	list-style: none;
@@ -47,6 +45,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /*MY CODE BEGINS HERE*/
 a{
 	text-decoration: none;
@@ -94,19 +93,49 @@ li{
 	margin: 0 auto;
 	width: 800px;
 }
-.heading{
+.header-text-shown{
 	margin: auto;
 	display: block;
 	width: 800px;
 	font-weight: bold;
+}
+.bc-info-hidden{
+	margin: auto;
+	display: none;
+	width: 800px;
+	font-weight: bold;
+}
+.hr-info-hidden{
+	margin: auto;
+	display: none;
+	width: 800px;
+	font-weight: bold;
+}
+.cf-info-hidden{
+	margin: auto;
+	display: none;
+	width: 800px;
+	font-weight: bold;
+}
+.bc-arrow{
+	position: absolute;
+	left: 550px;
+}
+.hr-arrow{
+	position: absolute;
+	left: 780px;
+}
+.cf-arrow{
+	position: absolute;
+	left: 820px;
 }
 .hotbuttons{
 	margin: 20px;
 	padding-top: 10px;
 	text-align: center;
 	display: inline-block;
-	width: 175px;
-	height: 225px;
+	width: 180px;
+	height: 250px;
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
 	background: linear-gradient(#FFFFFF, #efefef);
